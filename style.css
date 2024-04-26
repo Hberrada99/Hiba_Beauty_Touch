@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo', sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.container h2{
+    color: rgb(231, 115, 115);
+}
+.header {
+    padding: 20px 0;
+    text-align: left;
+    background-color: #f4f4f4;
+}
+
+.header img {
+    width: 150px;
+    margin-left: 700px;
+}
+
+.banner {
+    text-align: center;
+    padding: 155px 0;
+    background-image: url('images/bgmakeup1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner h1, .banner h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px;
+}
+.banner h1{color: rgb(231, 115, 115);}
+.banner h2{color:rgb(0, 0, 0)}
+.banner p{color: rgb(45, 231, 209);
+          margin-bottom: 20px;}
+
+.section {
+    padding: 20px 0;
+}
+
+.lescards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    margin: 0 auto
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.btn-ecole{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px;
+    background-color: #f2a1a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.btn-makeup{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px;
+    background-color: #f2a1a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.btn-soin{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px;
+    background-color: #f2a1a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.btn-hamam{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px;
+    background-color: #f2a1a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.btn-ecole:hover{
+    transform: translate(10px, 10px);
+    box-shadow: 0px 0px 0 rgba(0, 0, 0, 0.1);
+}
+.btn-makeup:hover{
+    transform: translate(10px, 10px);
+    box-shadow: 0px 0px 0 rgba(0, 0, 0, 0.1);
+}
+.btn-soin:hover{
+    transform: translate(10px, 10px);
+    box-shadow: 0px 0px 0 rgba(0, 0, 0, 0.1);
+}
+.btn-hamam:hover{
+    transform: translate(10px, 10px);
+    box-shadow: 0px 0px 0 rgba(0, 0, 0, 0.1);
+}
+#img-logo{
+    transition: 0.5s;
+}
+#img-makeup{
+    transition: 0.5s;
+}
+#img-soin{
+    transition: 0.5s;
+}
+#img-hamam{
+    transition: 0.5s;
+}
+#img-logo:hover{
+    transform: scale(1.3);
+}
+#img-makeup:hover:hover{
+    transform: scale(1.1);
+}
+#img-soin:hover{
+    transform: scale(1.1);
+}
+#img-hamam:hover{
+    transform: scale(1.1);
+}
+.footer {
+    background: #ffd5dc;
+    color: rgb(231, 115, 115);
+    text-align: center;
+    padding: 20px 0;
+}
